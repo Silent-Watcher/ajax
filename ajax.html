@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fa-IR" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ajax tamrin</title>
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../css/style2.css" />
+  </head>
+  <body>
+    <h1>ajax project</h1>
+    <form class="searchWp" action="./process.php" method="post" autocomplete="off">
+        <input
+          type="search"
+          name="city"
+          placeholder="نام شهر مورد نظر خود را وارد کنید..."
+        />
+    </form>
+    <div class="result">
+      <ul class="result-list"></ul>
+    </div>
+</body>
+  <script
+    src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+    crossorigin="anonymous"
+  ></script>
+  <script src="app.js"></script>
+</html>
